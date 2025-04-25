@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'IranNastaliq';
+  src: url('assets/IranNastaliq.woff2') format('woff2');
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  background: #fff7f0;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-nastaliq, .bottom-nastaliq {
+  font-family: 'IranNastaliq';
+  font-size: 2.5rem;
+  color: #800020;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.top-nastaliq {
+  top: 30px;
+}
+
+.bottom-nastaliq {
+  bottom: 30px;
+}
+
+.date-panels {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  height: 60vh;
+  z-index: 1;
+}
+
+.panel {
+  flex: 1;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease;
+}
+
+.im1 {
+  background-image: url('assets/im1.jpg');
+}
+
+.im2 {
+  background-image: url('assets/im2.jpg');
+}
+
+.im3 {
+  background-image: url('assets/im3.jpg');
+}
+
+.date-text {
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+.section-details {
+  background: #fffaf5;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.details-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 90%;
+}
+
+.im3-large {
+  background-image: url('assets/im3.jpg');
+  background-size: cover;
+  background-position: center;
+  flex: 2;
+  height: 60vh;
+  border-radius: 12px;
+}
+
+.invitation-text {
+  flex: 3;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-family: 'IranNastaliq';
+  color: #4d2d23;
+}
+
+.section-map {
+  background: #fff0e5;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+}
+
+.map-icons img {
+  width: 60px;
+  margin: 0 15px;
+  transition: transform 0.3s ease;
+}
+
+.map-icons img:hover {
+  transform: scale(1.1);
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
