@@ -1,16 +1,17 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'IranNastaliq' !important;
-    src: url('wp-content/themes/font/IranNastaliq.woff') format('woff');
+    font-family: 'IranNastaliq';
+    src: url('wp-content/themes/font/IranNastaliq.woff') format('woff'),
+         url('wp-content/themes/font/IranNastaliq.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
   }
 
 html, body, * {
     direction: rtl !important;
-    unicode-bidi: embed;
-    font-family: 'IranNastaliq' !important;
+    unicode-bidi: embed !important;
+    font-family: 'IranNastaliq', sans-serif !important;
   }
 .wp-block-archives {
     box-sizing: border-box
