@@ -19,6 +19,13 @@ body {
     text-align: center;
 }
 
+.scaled-div {
+    transform: scale(0.6);
+    transform-origin: top center; /* scale from the center horizontally */
+    margin: 0 auto;               /* center horizontally */
+    display: table;     
+}
+
 .wp-block-archives {
     box-sizing: border-box
 }
