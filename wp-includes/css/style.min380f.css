@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
-@font-face {
+/* @font-face {
     font-family: 'IranNastaliq';
     src: url('wp-content/themes/font/IranNastaliq.woff') format('woff'),
          url('wp-content/themes/font/IranNastaliq.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-  }
+  } */
+
+  @font-face { font-family: IranNastaliq; src: url('https://cdn.mxit.ir/fonts/IranNastaliq/IranNastaliq.eot'); src: url('https://cdn.mxit.ir/fonts/IranNastaliq/IranNastaliq.eot') format('embedded-opentype'), url('https://cdn.mxit.ir/fonts/IranNastaliq/IranNastaliq.woff2') format('woff2'), url('https://cdn.mxit.ir/fonts/IranNastaliq/IranNastaliq.woff') format('woff'), url('https://cdn.mxit.ir/fonts/IranNastaliq/IranNastaliq.ttf') format('truetype '); }
 
 html, body, * {
     direction: rtl !important;
@@ -20,18 +22,18 @@ body {
 }
 
 .scaled-div {
-    transform: scale(0.6);
+    transform: scale(1);
     transform-origin: top center; /* scale from the center horizontally */
     margin: 0 auto;               /* center horizontally */
     display: table;     
 }
 
 .scaled-body {
-    transform: scale(0.95);
+    transform: scale(1);
     transform-origin: top center; /* scale from the center horizontally */
     margin: 0 auto;               /* center horizontally */
     display: table;     
-}
+} 
 
 .wp-block-archives {
     box-sizing: border-box
