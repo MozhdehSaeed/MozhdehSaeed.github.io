@@ -13,6 +13,12 @@ html, body, * {
     unicode-bidi: embed !important;
     font-family: 'IranNastaliq', sans-serif !important;
   }
+
+body {
+    direction: rtl;
+    text-align: center;
+}
+
 .wp-block-archives {
     box-sizing: border-box
 }
