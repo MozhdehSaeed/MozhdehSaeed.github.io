@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Neirizi';
-    src: url('wp-content/themes/font/Neirizi.woff') format('woff');
+    font-family: 'IranNastaliq' !important;
+    src: url('wp-content/themes/font/IranNastaliq.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
@@ -10,7 +10,7 @@
 html, body, * {
     direction: rtl !important;
     unicode-bidi: embed;
-    font-family: 'Neirizi' !important;
+    font-family: 'IranNastaliq' !important;
   }
 .wp-block-archives {
     box-sizing: border-box
