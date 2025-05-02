@@ -6,9 +6,12 @@
     font-weight: normal;
     font-style: normal;
   }
-p {
+
+html, body, * {
+    direction: rtl;
+    unicode-bidi: embed;
     font-family: 'Neirizi';
-}
+  }
 .wp-block-archives {
     box-sizing: border-box
 }
