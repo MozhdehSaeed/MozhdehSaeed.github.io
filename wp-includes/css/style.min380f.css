@@ -12,7 +12,6 @@ html, body, * {
     direction: rtl !important;
     unicode-bidi: embed !important;
     font-family: 'IranNastaliq', sans-serif !important;
-    font-size: 150% !important;
   }
 
 body {
