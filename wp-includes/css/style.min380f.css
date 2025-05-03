@@ -22,7 +22,7 @@ body {
 }
 
 .scaled-div {
-    transform: scale(0.9);
+    transform: scale(1);
     transform-origin: top center; /* scale from the center horizontally */
     margin: 0 auto;               /* center horizontally */
     display: table;     
